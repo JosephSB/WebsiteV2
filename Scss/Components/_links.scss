@@ -1,0 +1,21 @@
+.Nav_Item{
+    list-style: none;
+    margin: 10px;
+}
+.Nav_Link,.Nav_Link2{
+    text-decoration: none;
+    font-size: 10px;
+    transition: all .2s;
+    padding: 5px;
+    color: rgb(221, 221, 221);
+}
+
+.Nav_Link:hover{
+    border-bottom: 1px solid $textColor;
+    font-size: 10.5px;
+    color: $textColor;
+}
+
+.Nav_Link2:hover{
+    color: $textColor;
+}

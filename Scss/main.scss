@@ -1,0 +1,48 @@
+ //false ligth- true dark;
+$BgColor: rgb(17, 17, 17);
+$ColorSecondary: rgb(80, 80, 80);
+$Color3: rgb(24, 24, 24);
+$TextColorPrincipal: rgb(28, 255, 104);
+//rgb(28, 255, 104);
+//rgb(28, 172, 255);
+$textColor: whitesmoke ;
+$Font: 'Press Start 2P', cursive;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $Font;
+  background-color: $BgColor;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  padding: 10px;
+  padding-top: 90px;
+}
+@import './animations';
+@import './Mixins/mixin';
+@import './Components/layouts';
+@import './Components/links';
+@import './Components/Buttons';
+@import './Pages/home';
+
+
+
+/*
+.dark{
+  $theme: rgb(24, 24, 24);
+  $text: white;
+
+  background-color: $theme;
+  color: $text;
+  .code{
+    background-color: rgb(37, 37, 37);
+  }
+}
+
+*/

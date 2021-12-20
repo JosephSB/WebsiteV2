@@ -1,0 +1,36 @@
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.BtnTheme{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: $BgColor;
+    color: $textColor;
+    border: 1px solid $ColorSecondary;
+    transition: all .2s;
+}
+.BtnTheme:hover{
+    width: 32px;
+    height: 32px;
+    box-shadow: 2px -1px 22px -2px $ColorSecondary;
+    -webkit-box-shadow: 2px -1px 22px -2px $ColorSecondary;
+    -moz-box-shadow: 2px -1px 22px -2px $ColorSecondary;
+}
+.Btn_Download{
+    width: 220px;
+    height: 40px;
+    background-color: $ColorSecondary;
+    border-radius: 10px;
+    color: $textColor;
+    font-family: $Font;
+    font-size: 12px;
+    transition: background-color .2s;
+    border: 1px solid $ColorSecondary;
+}
+.Btn_Download:hover{
+    background-color: $BgColor;
+}
