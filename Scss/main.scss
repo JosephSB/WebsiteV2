@@ -14,17 +14,32 @@ body {
   margin: 0;
   font-family: $Font;
   background-color: $BgColor;
+  background-image: radial-gradient(circle at center center, $textColor, $BgColor), repeating-radial-gradient(circle at center center, $textColor, $textColor, 40px, transparent 80px, transparent 40px);
+  background-blend-mode: multiply;
 }
 * {
   box-sizing: border-box;
 }
 
+/*------------SCROLL----------------*/
+::-webkit-scrollbar{
+  width: .30rem;
+  background-color: $BgColor;
+  border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: $ColorSecondary;
+  border-radius: .5rem;
+}
+/*------------CONTAINER GENERAL------------------*/
 .container{
   width: 100%;
   padding: 10px;
   padding-top: 90px;
 }
-@import './animations';
+/*----------------------------------*/
+@import './Decorators/decorators';
 @import './Mixins/mixin';
 @import './Components/layouts';
 @import './Components/links';
@@ -34,15 +49,24 @@ body {
 
 
 /*
-.dark{
-  $theme: rgb(24, 24, 24);
-  $text: white;
+.Ligth{
+  $BgColor: rgb(240, 240, 240);
+  $ColorSecondary: rgb(80, 80, 80);
+  $Color3: whitesmoke;
+  $TextColorPrincipal: rgb(28, 255, 104);
+  //rgb(28, 255, 104);
+  //rgb(28, 172, 255);
+  $textColor: rgb(17, 17, 17);
+  $Font: 'Press Start 2P', cursive;
 
-  background-color: $theme;
-  color: $text;
-  .code{
-    background-color: rgb(37, 37, 37);
-  }
-}
 
-*/
+  background-color: $BgColor;
+  background-image: radial-gradient(circle at center center, $Color3, $BgColor), repeating-radial-gradient(circle at center center, $Color3, $Color3, 40px, transparent 80px, transparent 40px);
+  background-blend-mode: multiply;
+  @import './animations';
+  @import './Mixins/mixin';
+  @import './Components/layouts';
+  @import './Components/links';
+  @import './Components/Buttons';
+  @import './Pages/home';
+}*/

@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import AsideRedes from '../Components/Layouts/AsideRedes';
+import Footer from '../Components/Layouts/Footer';
 import Header from '../Components/Layouts/Header';
 import { ThemeProvider } from '../Context/ThemeContext';
 import '../Scss/main.scss';
@@ -16,6 +17,7 @@ function MyApp({ Component, pageProps }) {
       <Header/>
       <AsideRedes/>
       <Component {...pageProps} />
+      <Footer/>
     </ThemeProvider>
   )
 }

@@ -20,3 +20,7 @@
     align-items: center;
     flex-direction: column;
 }
+@mixin flex-between {
+    display: flex;
+    justify-content: space-between;
+}

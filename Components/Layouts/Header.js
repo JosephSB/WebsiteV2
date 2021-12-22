@@ -11,7 +11,7 @@ const Header = () =>{
         <header className="Header">
             <div className="ContainerHeader">
                 <div className="Header_ContainerLogo">
-                    <p className="Header_Logo glow2">&lt;JosephSB/&gt;</p>
+                    <p className="Header_Logo">&lt;JosephSB/&gt;</p>
                     <BtnBarrResponsive content={nav}/>
                 </div>
                 <nav className="Header_Nav" ref={nav}>

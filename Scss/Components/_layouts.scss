@@ -5,7 +5,7 @@
     height: 80px;
     //background-color: rgb(240, 240, 240);
     background-color: $BgColor;
-    border-bottom: 1px solid $ColorSecondary;
+    //border-bottom: 1px solid $ColorSecondary;
     position: fixed;
     z-index: 2;
 }
@@ -32,7 +32,7 @@
     display: none;
 }
 .Header_Logo{
-    color: $TextColorPrincipal;
+    color: $textColor;
     margin: 30px 0;
     font-size: 20px;
 }
@@ -95,4 +95,38 @@
 }
 .Aside-Menu{
     padding: 0;
+}
+
+@media screen and (max-width: 650px){
+    .Aside-Redes{
+        display: none;
+    }
+}
+
+/*------------FOOTER-----------------*/
+
+.Footer{
+    width: 100%;
+    background-color: $BgColor;
+}
+.Footer_Content{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.Footer_NavLink{
+    @include flex-center;
+    margin: 0;
+    padding: 0;
+}
+.Footer_Creditos{
+    @include flex-center-column;
+}
+.Footer_Text{
+    color: $textColor;
+    font-size: 10px;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

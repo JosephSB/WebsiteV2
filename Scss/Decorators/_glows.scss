@@ -1,0 +1,35 @@
+.glow_white {
+  //color: #fff;
+  text-shadow: 0 0 1px #fff, 0 0 2px rgb(251, 252, 251),
+    0 0 10px rgb(223, 250, 241), 0 0 16px rgb(212, 255, 241);
+  //animation: flicker 1.5s infinite alternate;
+}
+
+.glow_green {
+    //color: #fff;
+    text-shadow: 0 0 1px rgb(28, 255, 104), 0 0 2px rgb(28, 255, 104),
+      0 0 10px rgb(28, 255, 104), 0 0 16px rgb(28, 255, 104);
+    animation: flicker 3s infinite alternate;
+}
+
+
+
+
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 1px rgb(10, 245, 127), 0 0 2px rgb(12, 235, 123),
+    0 0 10px rgb(0, 247, 103), 0 0 16px rgb(10, 245, 69);
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
