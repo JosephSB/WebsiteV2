@@ -1,5 +1,6 @@
  //false ligth- true dark;
 $BgColor: rgb(17, 17, 17);
+$BgColor2: rgb(10, 10, 10);
 $ColorSecondary: rgb(80, 80, 80);
 $Color3: rgb(24, 24, 24);
 $TextColorPrincipal: rgb(28, 255, 104);
@@ -7,15 +8,17 @@ $TextColorPrincipal: rgb(28, 255, 104);
 //rgb(28, 172, 255);
 $textColor: whitesmoke ;
 $Font: 'Press Start 2P', cursive;
+$Font2: Verdana, Geneva, Tahoma, sans-serif;
 
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: $Font;
-  background-color: $BgColor;
+  background-color: $BgColor2;
+  /*
   background-image: radial-gradient(circle at center center, $textColor, $BgColor), repeating-radial-gradient(circle at center center, $textColor, $textColor, 40px, transparent 80px, transparent 40px);
-  background-blend-mode: multiply;
+  background-blend-mode: multiply;*/
 }
 * {
   box-sizing: border-box;
@@ -44,7 +47,7 @@ body {
 @import './Components/layouts';
 @import './Components/links';
 @import './Components/Buttons';
-@import './Pages/home';
+@import './Pages/pages';
 
 
 

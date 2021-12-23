@@ -1,0 +1,32 @@
+.About{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    @include GRID-COLUMN-TWO;
+    padding: 10px
+}
+.About_Img{
+    @extend .Home_Img ;
+}
+.About_Info{
+    width: 100%;
+    max-width: 500px;
+    text-align: start;
+}
+
+.About_Tittle{
+    font-size: 30px;
+    color: $TextColorPrincipal;
+}
+.About_text{
+    color: $textColor;
+    line-height: 20px;
+    font-size: 10px;
+    //font-family: $Font2;
+    margin:  5px 0;
+    //text-align: justify;
+}
+.About_Link{
+    text-decoration: none;
+    color: $textColor;
+}

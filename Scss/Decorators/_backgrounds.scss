@@ -3,3 +3,14 @@
     background-image: radial-gradient(circle at center center, $textColor, $BgColor), repeating-radial-gradient(circle at center center, $textColor, $textColor, 40px, transparent 80px, transparent 40px);
     background-blend-mode: multiply;
 }
+
+.degradado::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background: linear-gradient(rgba(0,0,0,0) 90%,$BgColor2 100%);
+}

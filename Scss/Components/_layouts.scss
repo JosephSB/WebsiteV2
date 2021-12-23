@@ -7,7 +7,7 @@
     background-color: $BgColor;
     //border-bottom: 1px solid $ColorSecondary;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
 }
 .ContainerHeader{
     width: 100%;
@@ -92,6 +92,7 @@
     background-color: $Color3;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    z-index: 3;
 }
 .Aside-Menu{
     padding: 0;
@@ -128,5 +129,5 @@
     color: $textColor;
     font-size: 10px;
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $Font2;
 }
