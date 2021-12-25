@@ -1,5 +1,19 @@
 {
-    "main":{
-        "title": "Hi mi nae us joseph"
+    "inicio": {
+        "home":{
+            "title2":"Hi, my name is",
+            "title3":"Frontend Development",
+            "btn":"DOWNLOAD CV"
+        },
+        "about":{
+            "title":"Acerca de mi",
+            "p1": "Hola, mi nombre es Joseph Nahun Silva Bendezu, tengo 19 años y vivo en Lima-Peru.",
+            "p2":"Me gusta todo lo relacionado con tecnologia e infomatica. Por esa razón, estudio Ingeniería de Software 🎓.",
+            "p3":"A inicios del 2020 comence la carrera de Ing de Software, donde decidi especializarme en Desarrollo Web, empece a aprender viendo videos en youtube y despues aprendi por udemy, documentacion oficial y otras plataformas de educacion.Me gusta practicar y aplicar lo aprendido haciendo proyectos, donde la mayoria los subo a mi",
+            "p4":"Por ahora lo que mas domino es el lado Frontend, principalmente javascript con React.js y Next.js."
+        },
+        "skills":{
+            "title":"technologies that I use"
+        }
     }
 }

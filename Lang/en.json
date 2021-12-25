@@ -1,0 +1,19 @@
+{
+    "inicio": {
+        "home":{
+            "title2":"Hi, my name is",
+            "title3":"Frontend Development",
+            "btn":"DOWNLOAD CV"
+        },
+        "about":{
+            "title":"About me",
+            "p1": "Hello, my name is Joseph Nahun Silva Bendezu, I am 19 years old and I live in Lima-Peru.",
+            "p2":"I like everything related to technology and information technology. For that reason, I study Software Engineering 🎓.",
+            "p3":"At the beginning of 2020, I started the career of Software Engineering, where I decided to specialize in Web Development, I began to learn by watching videos on YouTube and later I learned through udemy, official documentation and other educational platforms. I like to practice and apply what I have learned doing projects, where most of them upload them to me",
+            "p4":"For now what I dominate the most is the Frontend side, mainly javascript with React.js and Next.js."
+        },
+        "skills":{
+            "title":"technologies that I use"
+        }
+    }
+}
