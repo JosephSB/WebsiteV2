@@ -1,0 +1,50 @@
+.CardSkill{
+    width: 100%;
+    max-width: 300px;
+    min-height: 300px;
+    background-color: $BgColor;
+    border-radius: 10px;
+    margin: 10px
+}
+.CardSkill_Header{
+    @include flex-center;
+    justify-content: space-between;
+}
+.CardSkill_Header{
+    width: 100%;
+    color: $textColor;
+    padding: 10px 20px;
+    border-bottom: 2px solid $textColor;
+}
+
+.CardSkill_Title{
+    text-align: start;
+}
+.CardSkill_MenuLists,.CardSkill_List{
+    width: 100%;
+    padding: 0;
+}
+.CardSkill_List{
+    padding: 5px;
+    border-bottom: 1px solid $Color3;
+    color: $textColor;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.CardSkill_SpanIcon{
+    max-width: 70px;
+    font-size: 8px;
+    text-align: center;
+    margin: 5px 10px;
+}
+.CardSkill_Frameworks{
+    @include flex-center;
+    justify-content: flex-end;
+}
+.SpanTool{
+    font-size: 8px;
+}
+.ContentTool{
+    background-color: $BgColor2;
+    border-radius: 10px;  
+}

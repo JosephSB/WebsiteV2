@@ -1,5 +1,13 @@
+.About,.Abilities{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px
+}
+
 @import './about';
 @import './home';
+@import './abilities';
 
 
 @media screen and (max-width: 740px){

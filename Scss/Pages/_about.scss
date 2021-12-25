@@ -1,9 +1,5 @@
 .About{
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
     @include GRID-COLUMN-TWO;
-    padding: 10px
 }
 .About_Img{
     @extend .Home_Img ;
@@ -12,10 +8,10 @@
     width: 100%;
     max-width: 500px;
     text-align: start;
+    margin: 0 auto;
 }
 
 .About_Tittle{
-    font-size: 30px;
     color: $TextColorPrincipal;
 }
 .About_text{

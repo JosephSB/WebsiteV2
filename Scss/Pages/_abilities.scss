@@ -1,0 +1,16 @@
+.Abilities{
+    text-align: center;
+    min-height: 500px;
+}
+
+.Abilities_Title{
+    color: $TextColorPrincipal;
+}
+
+.Abilities_ContentCards{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    @include flex-center;
+    flex-wrap: wrap;
+}

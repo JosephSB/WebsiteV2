@@ -14,7 +14,7 @@ const About = () =>{
                 />
             </figure>
             <div className="About_Info">
-                <p className="About_Tittle glow_green">Acerda de mi</p>
+                <h2 className="About_Tittle glow_green">Acerda de mi</h2>
                 <p className="About_text">
                     Hola, mi nombre es <strong>Joseph Nahun Silva Bendezu</strong>, tengo 19 años y vivo en Lima-Peru.
                 </p>

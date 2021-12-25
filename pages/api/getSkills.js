@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
-export default function ApiSkills(req, res) {
+export default function handler(req, res) {
   res.status(200).json({
     Skills:[
       {
@@ -64,10 +64,6 @@ export default function ApiSkills(req, res) {
               {
                 name: "Socket.IO",
                 icon: "fas fa-bolt"
-              },
-              {
-                name: "Npm",
-                icon: "fab fa-npm"
               }
             ]
           },

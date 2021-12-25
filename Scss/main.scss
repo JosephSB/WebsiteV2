@@ -41,12 +41,17 @@ body {
   padding: 10px;
   padding-top: 90px;
 }
+.icon{
+  padding: 5px;
+  cursor: pointer;
+}
+.none{
+  display: none;
+}
 /*----------------------------------*/
 @import './Decorators/decorators';
 @import './Mixins/mixin';
-@import './Components/layouts';
-@import './Components/links';
-@import './Components/Buttons';
+@import './Components/components';
 @import './Pages/pages';
 
 
