@@ -1,9 +1,9 @@
 {
     "inicio": {
         "home":{
-            "title2":"Hi, my name is",
-            "title3":"Frontend Development",
-            "btn":"DOWNLOAD CV"
+            "title2":"Hola, me llamo",
+            "title3":"Programador Frontend",
+            "btn":"DESCARGAR CV"
         },
         "about":{
             "title":"Acerca de mi",
@@ -13,7 +13,7 @@
             "p4":"Por ahora lo que mas domino es el lado Frontend, principalmente javascript con React.js y Next.js."
         },
         "skills":{
-            "title":"technologies that I use"
+            "title":"Habilidades"
         }
     }
 }

@@ -7,7 +7,6 @@ import { ThemeProvider } from '../Context/ThemeContext';
 import '../Scss/main.scss';
 
 function MyApp({ Component, pageProps }) {
-  console.log(language)
   return (
     <ThemeProvider>
       <Head>
