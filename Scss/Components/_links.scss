@@ -2,7 +2,7 @@
     list-style: none;
     margin: 10px;
 }
-.Nav_Link,.Nav_Link2{
+.Nav_Link,.Nav_Link2,.Nav_Link3{
     text-decoration: none;
     font-size: 10px;
     transition: all .2s;
@@ -18,4 +18,15 @@
 
 .Nav_Link2:hover{
     color: $textColor;
+}
+.Nav_Link3{
+    background-color: $ColorSecondary;
+    padding: 5px;
+    border-radius: 10px;
+    transition: background-color .2s ;
+    border: 1px solid $ColorSecondary ;
+    margin: 5px;
+}
+.Nav_Link3:hover{
+    background-color: $BgColor;
 }

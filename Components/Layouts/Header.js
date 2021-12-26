@@ -2,10 +2,12 @@ import { useRef } from "react"
 import BtnBarrResponsive from "../Buttons/BtnBarrResponsive";
 import BtnTheme from "../Buttons/BtnTheme"
 import Link1 from "../Links/Link"
+import { useRouter } from 'next/router';
 
 
 const Header = () =>{
     const nav = useRef(null);
+    const router = useRouter();
 
     return (
         <header className="Header">
@@ -16,9 +18,9 @@ const Header = () =>{
                 </div>
                 <nav className="Header_Nav" ref={nav}>
                     <ul className="Header_Menu">
-                        <Link1 Name="Inicio" Route="/" />
-                        <Link1 Name="Proyectos" Route="/Proyects" />
-                        <Link1 Name="Contacto" Route="/Contact" />
+                        <Link1 Name="Inicio" Route="/" active={router.pathname === "/" ? "active" : ""}/>
+                        <Link1 Name="Proyectos" Route="/Proyects" active={router.pathname === "/Proyects" ? "active" : ""} />
+                        <Link1 Name="Contacto" Route="/Contact" active={router.pathname === "/Contact" ? "active" : ""}/>
                         <BtnTheme/>
                     </ul>
                 </nav>

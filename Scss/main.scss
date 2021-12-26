@@ -53,7 +53,9 @@ body {
 @import './Mixins/mixin';
 @import './Components/components';
 @import './Pages/pages';
-
+.active{
+  color: $TextColorPrincipal;
+}
 
 
 /*
