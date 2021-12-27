@@ -2,7 +2,7 @@ import Head from 'next/head';
 import AsideRedes from '../components/layouts/AsideRedes';
 import Footer from '../components/layouts/Footer';
 import Header from '../components/layouts/Header';
-import SpanLanguage from '../components/layouts/spanLanguage';
+import SpanLanguage from '../components/layouts/SpanLanguage';
 import { ThemeProvider } from '../Context/ThemeContext';
 import '../Scss/main.scss';
 
