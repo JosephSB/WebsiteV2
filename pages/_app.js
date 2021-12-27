@@ -13,7 +13,8 @@ function MyApp({ Component, pageProps }) {
         <title>JosephSB</title>
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
-        <script src="https://kit.fontawesome.com/23fca06461.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/23fca06461.js" crossOrigin="anonymous"></script>
+        <link href="path/to/file.ext" crossOrigin="anonymous" />
       </Head>
       <Header/>
       <AsideRedes/>
