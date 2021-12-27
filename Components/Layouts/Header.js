@@ -1,7 +1,7 @@
 import { useRef } from "react"
-import BtnBarrResponsive from "../buttons/BtnBarrResponsive";
-import BtnTheme from "../buttons/BtnTheme"
-import Link1 from "../links/Link"
+import BtnBarrResponsive from "../Buttons/BtnBarrResponsive";
+import BtnTheme from "../Buttons/BtnTheme"
+import Link1 from "../Links/Link"
 import { useRouter } from 'next/router';
 
 

@@ -1,4 +1,4 @@
-import CardSkills from "../cards/CardSkills"
+import CardSkills from "../Cards/CardSkills"
 
 const Abilities = ({title,data}) =>{
     return(
