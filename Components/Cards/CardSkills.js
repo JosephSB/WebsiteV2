@@ -1,4 +1,4 @@
-import ContentListTool from "../Items/ContentListTool"
+import ContentListTool from "../items/ContentListTool"
 
 const CardSkills = ({name,tools}) =>{
     return(

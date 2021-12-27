@@ -1,6 +1,6 @@
-import Link3 from "../../Components/Links/Link3"
+import Link3 from "../../Components/links/Link3"
 import Image from "next/image"
-import ItemTool from "../Items/ItemTool"
+import ItemTool from "../items/ItemTool"
 
 const CardProyect = ({portada,name,tags,description,Repositorio,Demo,technologies}) =>{
     return(

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import BtnDownload from "../Buttons/BtnDownload";
+import BtnDownload from "../buttons/BtnDownload";
 
 const Home = ({title2,title3,btn}) => {
   return (

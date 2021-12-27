@@ -1,4 +1,4 @@
-import Link2 from "../Links/Link2";
+import Link2 from "../links/Link2";
 
 const AsideRedes = () =>{
     return(

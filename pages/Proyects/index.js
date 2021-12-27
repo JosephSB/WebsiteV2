@@ -1,4 +1,4 @@
-import CardProyect from "../../Components/Cards/CardProyect";
+import CardProyect from "../../Components/cards/CardProyect";
 
 const Proyects = ({data}) =>{
     return(
