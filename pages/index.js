@@ -1,4 +1,4 @@
-import Abilities from "../Components/Sections/abilities";
+import Abilities from "../Components/Sections/Abilities";
 import About from "../Components/Sections/About";
 import Home from "../Components/Sections/Home";
 
