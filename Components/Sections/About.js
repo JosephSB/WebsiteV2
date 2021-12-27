@@ -4,7 +4,8 @@ const About = ({title,p1,p2,p3,p4}) =>{
     return(
         <section className="About">
             <figure className="About_Img">
-                <Image      
+                <Image  
+                crossOrigin="anonymous"    
                 src="/Img/FotSetup.png"
                 alt="JosephSB"
                 width={500}

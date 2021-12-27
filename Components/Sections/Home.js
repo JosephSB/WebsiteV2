@@ -13,6 +13,7 @@ const Home = ({title2,title3,btn}) => {
         </div>
         <figure className="Home_Img">
           <Image       
+          crossOrigin="anonymous"
           src="/Img/FotoYo.png"
           alt="JosephSB"
           width={400}

@@ -6,6 +6,7 @@ const CardProyect = ({portada,name,tags,description,Repositorio,Demo,technologie
     return(
         <div className="CardProyect">
             <Image
+            crossOrigin="anonymous"
             src={portada}
             alt="MiniSpotiffy"
             width={280}
