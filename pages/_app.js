@@ -1,8 +1,8 @@
 import Head from 'next/head';
-import AsideRedes from '../Components/layouts/AsideRedes';
-import Footer from '../Components/layouts/Footer';
-import Header from '../Components/layouts/Header';
-import SpanLanguage from '../Components/layouts/spanLanguage';
+import AsideRedes from '../components/layouts/AsideRedes';
+import Footer from '../components/layouts/Footer';
+import Header from '../components/layouts/Header';
+import SpanLanguage from '../components/layouts/spanLanguage';
 import { ThemeProvider } from '../Context/ThemeContext';
 import '../Scss/main.scss';
 

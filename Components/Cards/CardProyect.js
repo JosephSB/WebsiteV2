@@ -1,4 +1,4 @@
-import Link3 from "../../Components/links/Link3"
+import Link3 from "../../components/links/Link3"
 import Image from "next/image"
 import ItemTool from "../items/ItemTool"
 
