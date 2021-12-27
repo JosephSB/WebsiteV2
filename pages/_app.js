@@ -1,8 +1,8 @@
 import Head from 'next/head';
-import AsideRedes from '../Components/Layouts/AsideRedes';
-import Footer from '../Components/Layouts/Footer';
-import Header from '../Components/Layouts/Header';
-import SpanLanguage from '../Components/Layouts/spanLanguage';
+import AsideRedes from '../Components/layouts/AsideRedes';
+import Footer from '../Components/layouts/Footer';
+import Header from '../Components/layouts/Header';
+import SpanLanguage from '../Components/layouts/spanLanguage';
 import { ThemeProvider } from '../Context/ThemeContext';
 import '../Scss/main.scss';
 
@@ -14,7 +14,6 @@ function MyApp({ Component, pageProps }) {
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
         <script src="https://kit.fontawesome.com/23fca06461.js" crossOrigin="anonymous"></script>
-        <link href="path/to/file.ext" crossOrigin="anonymous" />
       </Head>
       <Header/>
       <AsideRedes/>
