@@ -13,7 +13,8 @@ const Inicio = ({data,language}) => {
   );
 };
 
-export async function getStaticProps({locale}){
+
+export async function getServerSideProps({locale}){
   let url = process.env.API_URL+'/getSkills';
   const resp = await fetch(url);
   const skills = await resp.json();

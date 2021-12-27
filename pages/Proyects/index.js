@@ -11,7 +11,7 @@ const Proyects = ({data}) =>{
     )
 }
 
-export async function getStaticProps(){
+export async function getServerSideProps(){
     let url = process.env.API_URL+'/getProyects';
     const resp = await fetch(url);
     const proyects = await resp.json();

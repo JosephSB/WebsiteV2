@@ -26,7 +26,7 @@ const About = ({title,p1,p2,p3,p4}) =>{
                 <br/>
                 <p className="About_text">
                     {p3} &nbsp;
-                    <a href="https://github.com/JosephSB" target="_blank" className="About_Link"><strong>github</strong></a>.
+                    <a href="https://github.com/JosephSB" target="_blank" rel="noreferrer" className="About_Link"><strong>github</strong></a>.
                 </p>
                 <br/>
                 <p className="About_text">
