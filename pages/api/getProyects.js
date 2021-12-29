@@ -46,16 +46,24 @@ export default function handler(req, res) {
                 ]
             },
             {
-                portada: "/Img/Proyects/ImgProyect3.webp",
-                name:"Rick y Morty",
-                tags : ["Api","Frontend"],
-                description : "Proyecto hecho en react.js donde consumo la api de la serie Rick y Morty",
-                Repositorio: "https://github.com/JosephSB/RickandMorty",
-                Demo: "https://rick-and-morty-pe.herokuapp.com/",
+                portada: "/Img/Proyects/ImgProyect7.webp",
+                name:"YourDrugs",
+                tags : ["Api","Frontend","Backend","e-commerce"],
+                description : "e-commerce basado en la serie How to sell drugs online, este proyecto permite simular un carrito de compras, validar usuarios y puedes agregar comentarios en cada producto",
+                Repositorio: "https://github.com/JosephSB/Frontend-YourDrugs",
+                Demo: "",
                 technologies:[              
                     {
                         name: "React.js",
                         icon: "svg/reactjs.svg"
+                    },
+                    {
+                        name: "Nodejs",
+                        icon: "svg/nodejs.svg"
+                    },
+                    {
+                        name: "MongoDB",
+                        icon: "svg/mongo.svg"
                     },
                     {
                         name: "js",
@@ -64,12 +72,12 @@ export default function handler(req, res) {
                 ]
             },
             {
-                portada: "/Img/Proyects/ImgProyect4.webp",
-                name:"Pokedex",
+                portada: "/Img/Proyects/ImgProyect3.webp",
+                name:"Rick y Morty",
                 tags : ["Api","Frontend"],
-                description : "Proyecto hecho en react.js donde consumo la api de Pokemons, ademas cree un juego de adivinar pokemos con 5 niveles",
-                Repositorio: "https://github.com/JosephSB/POKEDEX-GAME",
-                Demo: "https://mypokedex-online.herokuapp.com/",
+                description : "Proyecto hecho en react.js donde consumo la api de la serie Rick y Morty",
+                Repositorio: "https://github.com/JosephSB/RickandMorty",
+                Demo: "https://rick-and-morty-pe.herokuapp.com/",
                 technologies:[              
                     {
                         name: "React.js",
@@ -93,6 +101,28 @@ export default function handler(req, res) {
                         name: "Node.js",
                         icon: "svg/nodejs.svg"
                     },             
+                    {
+                        name: "React.js",
+                        icon: "svg/reactjs.svg"
+                    },
+                    {
+                        name: "js",
+                        icon: "svg/js.svg"
+                    },
+                    {
+                        name: "SocketIO",
+                        icon: "svg/socketio.svg"
+                    }
+                ]
+            },
+            {
+                portada: "/Img/Proyects/ImgProyect4.webp",
+                name:"Pokedex",
+                tags : ["Api","Frontend"],
+                description : "Proyecto hecho en react.js donde consumo la api de Pokemons, ademas cree un juego de adivinar pokemos con 5 niveles",
+                Repositorio: "https://github.com/JosephSB/POKEDEX-GAME",
+                Demo: "https://mypokedex-online.herokuapp.com/",
+                technologies:[              
                     {
                         name: "React.js",
                         icon: "svg/reactjs.svg"

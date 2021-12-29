@@ -95,24 +95,24 @@ export default function handler(req, res) {
         name: "DATABASE",
         tools: [
           {
-            name: "MongoDB",
-            fullname: "MongoDB",
+            name: "NOSQL",
+            fullname: "NOSQL",
             icon:"",
             frameworks: [
               {
-                name: "Nativo",
-                icon: ""
+                name: "MongoDB",
+                icon: "svg/mongo.svg"
               }
             ]
           },
           {
-            name: "MYSQL",
-            fullname: "MySql",
+            name: "SQL",
+            fullname: "Sql",
             icon:"",
             frameworks: [
               {
-                name: "Nativo",
-                icon: ""
+                name: "Mysql",
+                icon: "svg/mysql.svg"
               }
             ]
           }
