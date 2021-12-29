@@ -9,6 +9,9 @@ import '../Scss/main.scss';
 function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider>
+        <Head>
+            <title>JosephSB</title>
+        </Head>
       <Header/>
       <AsideRedes/>
       <Component {...pageProps} />

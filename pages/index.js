@@ -1,6 +1,6 @@
-import Abilities from "../Components/Sections/Abilities";
-import About from "../Components/Sections/About";
-import Home from "../Components/Sections/Home";
+import Abilities from "@Components/Sections/Abilities";
+import About from "@Components/Sections/About";
+import Home from "@Components/Sections/Home";
 
 const Inicio = ({data,language}) => {
   const {home,about,skills} = language;
