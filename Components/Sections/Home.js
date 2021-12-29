@@ -14,12 +14,12 @@ const Home = ({title2,title3,btn}) => {
         <figure className="Home_Img">
           <Image       
           crossOrigin="anonymous"
-          src="/Img/FotoYo.png"
+          src="/Img/FotoYo.webp"
           alt="JosephSB"
           width={400}
           height={400}
           placeholder="blur"
-          blurDataURL="/Img/FotoYo.png"
+          blurDataURL="/Img/FotoYo.webp"
           />
         </figure>
       </div>

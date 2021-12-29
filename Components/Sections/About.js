@@ -6,12 +6,12 @@ const About = ({title,p1,p2,p3,p4}) =>{
             <figure className="About_Img">
                 <Image  
                 crossOrigin="anonymous"    
-                src="/Img/FotSetup.png"
+                src="/Img/FotSetup.webp"
                 alt="JosephSB"
                 width={500}
                 height={500}
                 placeholder="blur"
-                blurDataURL="/Img/FotSetup.png"
+                blurDataURL="/Img/FotSetup.webp"
                 />
             </figure>
             <div className="About_Info">
