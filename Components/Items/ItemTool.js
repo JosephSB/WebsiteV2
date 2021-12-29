@@ -1,8 +1,9 @@
+import IconSvg from "./IconSvg"
 
 const ItemTool = ({icon,name}) =>{
     return(
         <div className="ContentTool">
-            <i className ={`${icon} icon`}></i>
+            <IconSvg src={icon}/>
             <span className="SpanTool">{name}</span>
         </div>
     )

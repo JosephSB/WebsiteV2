@@ -9,15 +9,15 @@ export default function handler(req, res) {
           {
             name: "JS",
             fullname: "Javascript",
-            icon:"fab fa-js",
+            icon:"svg/js.svg",
             frameworks: [
               {
                 name: "React.js",
-                icon: "fab fa-react"
+                icon: "svg/reactjs.svg"
               },
               {
                 name: "Next.js",
-                icon: ""
+                icon: "svg/nextjs.svg"
               }
             ]
           },
@@ -28,11 +28,11 @@ export default function handler(req, res) {
             frameworks: [
               {
                 name: "Sass",
-                icon: "fab fa-sass"
+                icon: "svg/sass.svg"
               },
               {
                 name: "Styled Components",
-                icon: ""
+                icon: "svg/styledcomponents.svg"
               }
             ]
           },
@@ -43,7 +43,7 @@ export default function handler(req, res) {
             frameworks: [
               {
                 name: "pug",
-                icon: ""
+                icon: "svg/pug.svg"
               }
             ]
           }
@@ -63,7 +63,7 @@ export default function handler(req, res) {
               },
               {
                 name: "Socket.IO",
-                icon: "fas fa-bolt"
+                icon: "svg/socketio.svg"
               }
             ]
           },
@@ -85,7 +85,7 @@ export default function handler(req, res) {
             frameworks: [
               {
                 name: "Spring Boot",
-                icon: "fas fa-leaf"
+                icon: "svg/spring.svg"
               }
             ]
           }
@@ -128,7 +128,7 @@ export default function handler(req, res) {
             frameworks: [
               {
                 name: "Ubuntu",
-                icon: "fab fa-ubuntu"
+                icon: "svg/ubuntu.svg"
               }
             ]
           }

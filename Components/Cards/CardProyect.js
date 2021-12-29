@@ -1,6 +1,6 @@
-import Link3 from "../Links/Link3"
 import Image from "next/image"
 import ItemTool from "../Items/ItemTool"
+import Btn1 from "../Buttons/Btn1"
 
 const CardProyect = ({portada,name,tags,description,Repositorio,Demo,technologies}) =>{
     return(
@@ -24,8 +24,8 @@ const CardProyect = ({portada,name,tags,description,Repositorio,Demo,technologie
                 </p>
             </div>
             <div className="CardProyect_Links">
-                {Repositorio.length > 0 && <Link3 icon="fab fa-github" text=" Repositorio" Route={Repositorio} />}
-                {Demo.length > 0 && <Link3 icon="fas fa-link" text=" Demo" Route={Demo} />}
+                {Repositorio.length > 0 && <Btn1 icon="svg/github.svg" message="Repositorio" route={Repositorio} />}
+                {Demo.length > 0 && <Btn1 icon="svg/link.svg" message="Demo" route={Demo} />}
             </div>
             <div className="CardProyect_footer">
                 {technologies.map(

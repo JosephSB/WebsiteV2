@@ -46,7 +46,9 @@
 }
 .ContentTool{
     background-color: $BgColor2;
-    border-radius: 10px;  
+    border-radius: 10px;
+    padding: 5px;
+    @include flex-center;  
 }
 
 /*-------------CARD-PROYECT------------*/
@@ -93,5 +95,6 @@
     color: $textColor;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 5px;
 }

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import IconSvg from "../Items/IconSvg";
 
 const BtnBarrResponsive = ({content}) =>{
     const [close, setClose] = useState(false);
@@ -8,10 +9,9 @@ const BtnBarrResponsive = ({content}) =>{
     }
     
     return(
-        <i className={`fas ${close ? "fa-times"  :"fa-bars"} fa-2x Header_Barr`}
-        onClick={handleClick}
-        area-hidden="true"
-        ></i>
+        <div onClick={handleClick} className="Header_Barr">
+            <IconSvg size={4} src={`svg/${close ? "close"  :"bar"}.svg`}/>
+        </div>
     )
 }
 

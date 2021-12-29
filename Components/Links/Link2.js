@@ -1,11 +1,12 @@
 import Link from "next/link"
+import IconSvg from "../Items/IconSvg"
 
 const Link2 = ({icon,Route}) =>{
     return (
         <li className="Nav_Item">
             <Link href={Route} >
                 <a target="_blank" className="Nav_Link2">
-                    <i className={`fab ${icon} fa-2x`}></i>
+                    <IconSvg src={icon}/>
                 </a>
             </Link>
         </li>

@@ -11,19 +11,19 @@ export default function handler(req, res) {
                 technologies:[              
                     {
                         name: "php",
-                        icon: "fab fa-php"
+                        icon: "svg/php.svg"
                     },
                     {
                         name: "Mysql",
-                        icon: "fas fa-database"
+                        icon: "svg/mysql.svg"
                     },
                     {
                         name: "React.js",
-                        icon: "fab fa-react"
+                        icon: "svg/reactjs.svg"
                     },
                     {
                         name: "js",
-                        icon: "fab fa-js"
+                        icon: "svg/js.svg"
                     }
                 ]
             },
@@ -37,11 +37,11 @@ export default function handler(req, res) {
                 technologies:[              
                     {
                         name: "React.js",
-                        icon: "fab fa-react"
+                        icon: "svg/reactjs.svg"
                     },
                     {
                         name: "js",
-                        icon: "fab fa-js"
+                        icon: "svg/js.svg"
                     }
                 ]
             },
@@ -55,11 +55,11 @@ export default function handler(req, res) {
                 technologies:[              
                     {
                         name: "React.js",
-                        icon: "fab fa-react"
+                        icon: "svg/reactjs.svg"
                     },
                     {
                         name: "js",
-                        icon: "fab fa-js"
+                        icon: "svg/js.svg"
                     }
                 ]
             },
@@ -73,11 +73,11 @@ export default function handler(req, res) {
                 technologies:[              
                     {
                         name: "React.js",
-                        icon: "fab fa-react"
+                        icon: "svg/reactjs.svg"
                     },
                     {
                         name: "js",
-                        icon: "fab fa-js"
+                        icon: "svg/js.svg"
                     }
                 ]
             },
@@ -91,15 +91,15 @@ export default function handler(req, res) {
                 technologies:[ 
                     {
                         name: "Node.js",
-                        icon: "fab fa-node-js"
+                        icon: "svg/nodejs.svg"
                     },             
                     {
                         name: "React.js",
-                        icon: "fab fa-react"
+                        icon: "svg/reactjs.svg"
                     },
                     {
                         name: "js",
-                        icon: "fab fa-js"
+                        icon: "svg/js.svg"
                     }
                 ]
             },
@@ -113,15 +113,15 @@ export default function handler(req, res) {
                 technologies:[ 
                     {
                         name: "Next.js",
-                        icon: ""
+                        icon: "svg/nextjs.svg"
                     },             
                     {
                         name: "React.js",
-                        icon: "fab fa-react"
+                        icon: "svg/reactjs.svg"
                     },
                     {
                         name: "js",
-                        icon: "fab fa-js"
+                        icon: "svg/js.svg"
                     }
                 ]
             }

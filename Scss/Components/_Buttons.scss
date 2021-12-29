@@ -3,6 +3,10 @@ button{
     outline: none;
     cursor: pointer;
 }
+
+.BtnTheme,.Btn_Download{
+    @include flex-center;
+}
 .BtnTheme{
     width: 30px;
     height: 30px;
@@ -30,6 +34,7 @@ button{
     font-size: 12px;
     transition: background-color .2s;
     border: 1px solid $ColorSecondary;
+    margin: 5px;
 }
 .Btn_Download:hover{
     background-color: $BgColor;
