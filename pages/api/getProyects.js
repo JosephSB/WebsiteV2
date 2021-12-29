@@ -2,7 +2,7 @@ export default function handler(req, res) {
     res.status(200).json({
         Proyects: [
             {
-                portada: "/Img/Proyects/ImgProyect1.png",
+                portada: "/Img/Proyects/ImgProyect1.webp",
                 name:"MiniSpotiffy",
                 tags : ["Api", "Backend","Frontend","Database"],
                 description : "Aplicacion parecida a spotiffy, donde puedes subir y escuchar musica ademas tiene inicio-cierre de sesion, tambien puedes crear tus propias playlists. Esta aplicacion esta hecha en php como una API y consumiendola en el frontend con React.js",
@@ -28,7 +28,7 @@ export default function handler(req, res) {
                 ]
             },
             {
-                portada: "/Img/Proyects/ImgProyect2.png",
+                portada: "/Img/Proyects/ImgProyect2.webp",
                 name:"Farmacheck",
                 tags : ["Api","Frontend"],
                 description : "Proyecto hecho en react.js donde consumo una api con locaciones y precios de medicamentos.",
@@ -46,7 +46,7 @@ export default function handler(req, res) {
                 ]
             },
             {
-                portada: "/Img/Proyects/ImgProyect3.png",
+                portada: "/Img/Proyects/ImgProyect3.webp",
                 name:"Rick y Morty",
                 tags : ["Api","Frontend"],
                 description : "Proyecto hecho en react.js donde consumo la api de la serie Rick y Morty",
@@ -64,7 +64,7 @@ export default function handler(req, res) {
                 ]
             },
             {
-                portada: "/Img/Proyects/ImgProyect4.png",
+                portada: "/Img/Proyects/ImgProyect4.webp",
                 name:"Pokedex",
                 tags : ["Api","Frontend"],
                 description : "Proyecto hecho en react.js donde consumo la api de Pokemons, ademas cree un juego de adivinar pokemos con 5 niveles",
@@ -82,7 +82,7 @@ export default function handler(req, res) {
                 ]
             },
             {
-                portada: "/Img/Proyects/ImgProyect5.png",
+                portada: "/Img/Proyects/ImgProyect5.webp",
                 name:"Chat Simple",
                 tags : ["Backend","Frontend","Websockets"],
                 description : "Proyecto hecho en React.js en el frontend y Node.js en el backend donde uso socket.io para crear un chat simple",
@@ -104,7 +104,7 @@ export default function handler(req, res) {
                 ]
             },
             {
-                portada: "/Img/Proyects/ImgProyect6.png",
+                portada: "/Img/Proyects/ImgProyect6.webp",
                 name:"Website Personal",
                 tags : ["Frontend"],
                 description : "Proyecto hecho en React.js y Next.js donde creo mi portafolio, ademas agregue ThemeMode y Multiidioma",
