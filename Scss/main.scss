@@ -1,24 +1,12 @@
- //false ligth- true dark;
-$BgColor: rgb(17, 17, 17);
-$BgColor2: rgb(10, 10, 10);
-$ColorSecondary: rgb(80, 80, 80);
-$Color3: rgb(24, 24, 24);
-$TextColorPrincipal: rgb(28, 255, 104);
-//rgb(28, 255, 104);
-//rgb(28, 172, 255);
-$textColor: whitesmoke ;
 $Font: 'Press Start 2P', cursive;
 $Font2: Verdana, Geneva, Tahoma, sans-serif;
+$TextColorPrincipal: rgb(28, 255, 104);
 
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: $Font;
-  background-color: $BgColor2;
-  /*
-  background-image: radial-gradient(circle at center center, $textColor, $BgColor), repeating-radial-gradient(circle at center center, $textColor, $textColor, 40px, transparent 80px, transparent 40px);
-  background-blend-mode: multiply;*/
 }
 * {
   box-sizing: border-box;
@@ -26,75 +14,78 @@ body {
 a{
   text-decoration: none;
 }
-
-/*------------SCROLL----------------*/
 ::-webkit-scrollbar{
   width: .30rem;
-  background-color: $BgColor;
+  background-color: rgb(17, 17, 17);
   border-radius: .5rem;
 }
-
 ::-webkit-scrollbar-thumb{
-  background-color: $ColorSecondary;
+  background-color: rgb(80, 80, 80);
   border-radius: .5rem;
 }
-/*------------styles GENERAL------------------*/
-.container{
-  width: 100%;
-  padding: 10px;
-  padding-top: 90px;
-}
-.icon{
-  margin: 0 5px;
-  cursor: pointer;
-}
-.none{
-  display: none;
-}
-.Svg{
-  filter: invert(1);
-}
-.size-1{
-  width: 14px;
-}
-.size-2{
-  width: 20px;
-}
-.size-4{
-  width: 40px;
-}
-.Svg:hover{
-  filter: invert(1) drop-shadow(2px 2px 5px $textColor);
-}
-/*----------------------------------*/
-@import './Decorators/decorators';
-@import './Mixins/mixin';
-@import './Components/components';
-@import './Pages/pages';
-.active{
-  color: $TextColorPrincipal;
-}
 
-
-/*
-.Ligth{
-  $BgColor: rgb(240, 240, 240);
+.Dark{
+   //false ligth- true dark;
+  $BgColor: rgb(17, 17, 17);
+  $BgColor2: rgb(10, 10, 10);
   $ColorSecondary: rgb(80, 80, 80);
-  $Color3: whitesmoke;
-  $TextColorPrincipal: rgb(28, 255, 104);
+  $Color3: rgb(24, 24, 24);
   //rgb(28, 255, 104);
   //rgb(28, 172, 255);
-  $textColor: rgb(17, 17, 17);
-  $Font: 'Press Start 2P', cursive;
+  $textColor: whitesmoke ;
 
 
-  background-color: $BgColor;
-  background-image: radial-gradient(circle at center center, $Color3, $BgColor), repeating-radial-gradient(circle at center center, $Color3, $Color3, 40px, transparent 80px, transparent 40px);
-  background-blend-mode: multiply;
-  @import './animations';
+
+  background-color: $BgColor2;
+
+  /*------------SCROLL----------------*/
+  @import './globals';
+  @import './Decorators/decorators';
   @import './Mixins/mixin';
-  @import './Components/layouts';
-  @import './Components/links';
-  @import './Components/Buttons';
-  @import './Pages/home';
-}*/
+  @import './Components/components';
+  @import './Pages/pages';
+  .active{
+    color: $textColor;
+  }
+  .Svg{
+    filter: invert(1);
+  }
+  .Svg:hover{
+      filter: invert(1) drop-shadow(2px 2px 5px $textColor);
+  }
+  .bg_radial{
+    background-color: $BgColor;
+    background-image: radial-gradient(circle at center center, $textColor, $BgColor), repeating-radial-gradient(circle at center center, $textColor, $textColor, 40px, transparent 80px, transparent 40px);
+    background-blend-mode: multiply;
+  }
+}
+.Ligth{
+  $BgColor: whitesmoke;
+  $BgColor2: rgb(240, 240, 240);
+  $ColorSecondary: rgb(211, 211, 211);
+  $Color3: rgb(230, 230, 230);
+  //rgb(28, 255, 104);
+  //rgb(28, 172, 255);
+  $TextColorPrincipal: rgb(51, 199, 51);
+  $textColor: rgb(49, 49, 49) ;
+
+  /*------------SCROLL----------------*/
+  @import './globals';
+  @import './Decorators/decorators';
+  @import './Mixins/mixin';
+  @import './Components/components';
+  @import './Pages/pages';
+
+  .active{
+    color: $textColor;
+  }
+
+  .Svg:hover{
+      filter: drop-shadow(2px 2px 5px $textColor);
+  }
+  .bg_radial{
+    background-color: #ffffff;
+    background-image: radial-gradient(circle at center center, #fcfcfc, #ffffff), repeating-radial-gradient(circle at center center, #fcfcfc, #fcfcfc, 40px, transparent 80px, transparent 40px);
+    background-blend-mode: multiply;
+  }
+}

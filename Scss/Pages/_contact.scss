@@ -1,0 +1,50 @@
+.Contact{
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+.Contact_Tittle{
+    color: $TextColorPrincipal;
+}
+.Contact_ContainerForm{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    @include flex-center;
+}
+.Contact_Aside{
+    width: 100%;
+    max-width: 200px;
+    @include flex-center-column;
+}
+.Contact_Form{
+    width: 100%;
+    max-width: 500px;
+    @include flex-center-column;
+}
+.Contact_inputForm,.Contact_textAreaForm{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: $BgColor;
+    color: $textColor;
+    border-radius: 5px;
+}
+.Contact_textAreaForm{
+    height: 120px;
+    resize: none;
+}
+@media screen and (max-width: 740px){
+    .Contact_Aside{
+        flex-direction: row;
+    }
+    .Contact_ContainerForm{
+        flex-direction: column;
+    }
+    .Contact_Aside{
+        max-width: 700px;
+    }
+}

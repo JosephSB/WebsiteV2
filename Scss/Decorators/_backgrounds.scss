@@ -1,8 +1,4 @@
-.bg_radial{
-    background-color: $BgColor;
-    background-image: radial-gradient(circle at center center, $textColor, $BgColor), repeating-radial-gradient(circle at center center, $textColor, $textColor, 40px, transparent 80px, transparent 40px);
-    background-blend-mode: multiply;
-}
+
 
 .degradado::before{
     content: "";

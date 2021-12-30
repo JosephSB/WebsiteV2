@@ -5,9 +5,11 @@ const ThemeProvider = ({ children }) => {
     const [theme, setTheme] = useState('moon'); // moon, sun
 
     const handleTheme = () => {
-        if(theme === 'moon') setTheme('sun');
-        else setTheme('moon');
-        window.localStorage.setItem('theme',theme);
+        let x = ""
+        if(theme === 'moon') x ='sun';
+        else x ='moon';
+        setTheme(x)
+        window.localStorage.setItem('theme',x);
     }
 
     useEffect(() => {

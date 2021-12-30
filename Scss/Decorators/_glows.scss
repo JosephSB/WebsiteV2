@@ -7,8 +7,8 @@
 
 .glow_green {
     //color: #fff;
-    text-shadow: 0 0 1px rgb(28, 255, 104), 0 0 2px rgb(28, 255, 104),
-      0 0 10px rgb(28, 255, 104), 0 0 16px rgb(28, 255, 104);
+    text-shadow: 0 0 1px $TextColorPrincipal, 0 0 2px $TextColorPrincipal,
+      0 0 10px $TextColorPrincipal, 0 0 16px $TextColorPrincipal;
     animation: flicker 3s infinite alternate;
 }
 
@@ -23,8 +23,8 @@
   53%,
   57%,
   100% {
-    text-shadow: 0 0 1px rgb(10, 245, 127), 0 0 2px rgb(12, 235, 123),
-    0 0 10px rgb(0, 247, 103), 0 0 16px rgb(10, 245, 69);
+    text-shadow: 0 0 1px $TextColorPrincipal, 0 0 2px $TextColorPrincipal,
+    0 0 10px $TextColorPrincipal, 0 0 16px $TextColorPrincipal;
   }
 
   20%,
