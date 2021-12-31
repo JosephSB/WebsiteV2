@@ -31,7 +31,7 @@ export default function handler(req, res) {
                 portada: "/Img/Proyects/ImgProyect2.webp",
                 name:"Farmacheck",
                 tags : ["Api","Frontend"],
-                description : "Proyecto hecho en react.js donde consumo una api con locaciones y precios de medicamentos.",
+                description : "Proyecto hecho en react.js donde consumo una api con locaciones y precios de medicamentos, en esta aplicacion puedes seleccionar tu ubicacion y encontrar los medicamentos con el mejor precio.",
                 Repositorio: "",
                 Demo: "https://farmacheck.preciso.pe/",
                 technologies:[              

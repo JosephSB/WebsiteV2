@@ -48,6 +48,8 @@
     background-color: $BgColor2;
     border-radius: 10px;
     padding: 5px;
+    margin: 2px;
+    height: 30px;
     @include flex-center;  
 }
 
@@ -56,6 +58,7 @@
 .CardProyect{
     width: 300px;
     text-align: center;
+    min-height: 560px;
     padding: 10px;
     background-color: $BgColor;
     margin: 10px;
@@ -63,6 +66,9 @@
 .CardProyect_Content,.CardProyect_MenuTags,.CardProyect_footer,
 .CardProyect_Links{
     width: 100%;
+}
+.CardProyect_Content{
+    min-height: 240px;
 }
 .CardProyect_Tittle{
     color: $TextColorPrincipal;
@@ -89,10 +95,12 @@
 }
 .CardProyect_Links{
     margin: 10px 0;
+    height: 100px;
 }
 .CardProyect_footer{
     border-top: 1px solid $textColor;
     color: $textColor;
+    height: 80px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;

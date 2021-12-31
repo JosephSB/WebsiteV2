@@ -1,6 +1,13 @@
 $Font: 'Press Start 2P', cursive;
 $Font2: Verdana, Geneva, Tahoma, sans-serif;
 $TextColorPrincipal: rgb(28, 255, 104);
+$BgColor: rgb(17, 17, 17);
+$BgColor2: rgb(10, 10, 10);
+$ColorSecondary: rgb(80, 80, 80);
+$Color3: rgb(24, 24, 24);
+//rgb(28, 255, 104);
+//rgb(28, 172, 255);
+$textColor: whitesmoke ;
 
 html,
 body {
@@ -8,12 +15,18 @@ body {
   margin: 0;
   font-family: $Font;
 }
+body #__next{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 * {
   box-sizing: border-box;
 }
 a{
   text-decoration: none;
 }
+/*------------SCROLL----------------*/
 ::-webkit-scrollbar{
   width: .30rem;
   background-color: rgb(17, 17, 17);
@@ -24,26 +37,15 @@ a{
   border-radius: .5rem;
 }
 
+
+/*------------SCROLL----------------*/
+@import './globals';
+@import './Decorators/decorators';
+@import './Mixins/mixin';
+@import './Components/components';
+@import './Pages/pages';
 .Dark{
-   //false ligth- true dark;
-  $BgColor: rgb(17, 17, 17);
-  $BgColor2: rgb(10, 10, 10);
-  $ColorSecondary: rgb(80, 80, 80);
-  $Color3: rgb(24, 24, 24);
-  //rgb(28, 255, 104);
-  //rgb(28, 172, 255);
-  $textColor: whitesmoke ;
-
-
-
   background-color: $BgColor2;
-
-  /*------------SCROLL----------------*/
-  @import './globals';
-  @import './Decorators/decorators';
-  @import './Mixins/mixin';
-  @import './Components/components';
-  @import './Pages/pages';
   .active{
     color: $textColor;
   }
@@ -59,6 +61,7 @@ a{
     background-blend-mode: multiply;
   }
 }
+
 .Ligth{
   $BgColor: whitesmoke;
   $BgColor2: rgb(240, 240, 240);
@@ -68,6 +71,8 @@ a{
   //rgb(28, 172, 255);
   $TextColorPrincipal: rgb(51, 199, 51);
   $textColor: rgb(49, 49, 49) ;
+
+  background-color: white;
 
   /*------------SCROLL----------------*/
   @import './globals';
