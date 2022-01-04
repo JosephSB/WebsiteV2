@@ -1,9 +1,18 @@
-/*
+
 import Btn1 from "@Components/Buttons/Btn1";
 import BtnBack from "@Components/Buttons/BtnBack";
 import Grilla from "@Components/Grid/Grilla";
 import ItemTool from "@Components/Items/ItemTool";
 
+const ProyectDetailById = () =>{
+
+    return(
+        <div className="container ProyectDetail">
+
+        </div>
+    )
+}
+/*
 const ProyectDetailById = ({proyect}) =>{
     const {portadas,name,
         tags,description,Repositorio,
@@ -57,6 +66,5 @@ export const getStaticPaths = async () => {
       fallback: false,
     }
 }
-
-export default ProyectDetailById
 */
+export default ProyectDetailById
