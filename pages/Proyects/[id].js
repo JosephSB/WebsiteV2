@@ -1,3 +1,4 @@
+/*
 import Btn1 from "@Components/Buttons/Btn1";
 import BtnBack from "@Components/Buttons/BtnBack";
 import Grilla from "@Components/Grid/Grilla";
@@ -58,3 +59,4 @@ export const getStaticPaths = async () => {
 }
 
 export default ProyectDetailById
+*/
