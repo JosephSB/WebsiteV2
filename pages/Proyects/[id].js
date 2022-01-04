@@ -10,9 +10,7 @@ const ProyectDetailById = ({proyect}) =>{
     } = proyect;
     return(
         <div className="container ProyectDetail">
-            
             <Grilla portadas={portadas} name={name} />
-
             <div className="ProyectDetail_Info">
                 <BtnBack/>
                 <h2 className="ProyectDetail_tittle">{name}</h2>
