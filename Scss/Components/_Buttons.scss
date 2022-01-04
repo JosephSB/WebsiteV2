@@ -24,7 +24,7 @@ button{
     -webkit-box-shadow: 2px -1px 22px -2px $ColorSecondary;
     -moz-box-shadow: 2px -1px 22px -2px $ColorSecondary;
 }
-.Btn_Download{
+.Btn_Download,.BtnBack{
     width: 220px;
     height: 40px;
     background-color: $ColorSecondary;
@@ -36,6 +36,10 @@ button{
     border: 1px solid $ColorSecondary;
     margin: 5px;
 }
-.Btn_Download:hover{
+.BtnBack{
+    width: 120px;
+    height: 40px;
+}
+.Btn_Download:hover , .BtnBack:hover{
     background-color: $BgColor;
 }

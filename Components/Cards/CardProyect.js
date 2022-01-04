@@ -1,18 +1,18 @@
 import Image from "next/image"
 import ItemTool from "../Items/ItemTool"
-import Btn1 from "../Buttons/Btn1"
+import Btn1_SPA from "@Components/Buttons/Btn1_SPA"
 
-const CardProyect = ({portada,name,tags,description,Repositorio,Demo,technologies}) =>{
+const CardProyect = ({portadas,name,tags,description,technologies,id}) =>{
     return(
         <div className="CardProyect">
             <Image
             crossOrigin="anonymous"
-            src={portada}
+            src={portadas[0]}
             alt="MiniSpotiffy"
             width={280}
             height={140}
             placeholder="blur"
-            blurDataURL={portada}
+            blurDataURL={portadas[0]}
             />
             <div className="CardProyect_Content">
                 <h3 className="CardProyect_Tittle">{name}</h3>
@@ -24,8 +24,7 @@ const CardProyect = ({portada,name,tags,description,Repositorio,Demo,technologie
                 </p>
             </div>
             <div className="CardProyect_Links">
-                {Repositorio.length > 0 && <Btn1 icon="svg/github.svg" message="Repositorio" route={Repositorio} />}
-                {Demo.length > 0 && <Btn1 icon="svg/link.svg" message="Demo" route={Demo} />}
+                <Btn1_SPA icon="svg/next-double.svg" message="Ver mas" route={`/Proyects/${id}`} />
             </div>
             <div className="CardProyect_footer">
                 {technologies.map(
@@ -38,5 +37,9 @@ const CardProyect = ({portada,name,tags,description,Repositorio,Demo,technologie
         </div>
     )
 }
+
+/*
+                {Repositorio.length > 0 && <Btn1 icon="svg/github.svg" message="Repositorio" route={Repositorio} />}
+                {Demo.length > 0 && <Btn1 icon="svg/link.svg" message="Demo" route={Demo} />}*/
 
 export default CardProyect

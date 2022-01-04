@@ -1,4 +1,4 @@
-.Proyects{
+.Proyects,.ProyectDetail{
     max-width: 1200px;
     text-align: center;
     margin: 0 auto;
@@ -11,4 +11,48 @@
     margin: 0 auto;
     @include flex-center;
     flex-wrap: wrap;
+}
+/*--------------PROYECT-DETAIL-------------------*/
+.ProyectDetail{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.ProyectDetail_Portada{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    grid-gap: 5px;
+}
+.Portada_grid-1{
+    cursor: pointer;
+    display: grid;
+    align-items: flex-end;
+    width: 100%;
+    max-width: 680px;
+    grid-column-start: 1; 
+    grid-column-end: 5; 
+    grid-row-start: 1; 
+    grid-row-end: 2;
+}
+.Portada_grid-others{
+    cursor: pointer;
+    width: 100%;
+    max-width: 220px;
+}
+
+.ProyectDetail_Info{
+    padding: 10px;
+}
+.ProyectDetail_tittle{
+    color: $TextColorPrincipal ;
+}
+.ProyectDetail_description{
+    color: $textColor ;
+    text-align: center;
+}
+@media screen and (max-width: 900px){
+    .ProyectDetail{
+        max-width: 700px;
+        grid-template-columns: 1fr ;
+    }
 }

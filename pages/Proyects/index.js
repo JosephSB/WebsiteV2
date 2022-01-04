@@ -12,13 +12,13 @@ const Proyects = ({data}) =>{
 }
 
 export async function getServerSideProps(){
-    let url = process.env.API_URL+'/getProyects';
+    let url = process.env.API_URL+'/proyects';
     const resp = await fetch(url);
     const proyects = await resp.json();
 
     return {
         props: {
-          data: proyects.Proyects
+          data: proyects.data
         }, // will be passed to the page component as props
     }
   }

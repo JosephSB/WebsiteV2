@@ -1,0 +1,27 @@
+.Grid_Portada{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 4.2fr 1fr;
+    grid-gap: 5px;
+}
+
+.Grid_PortadaPrincipal{
+    cursor: pointer;
+    display: grid;
+    align-items: flex-end;
+    width: 100%;
+    max-width: 680px;
+    grid-column-start: 1; 
+    grid-column-end: 5; 
+    grid-row-start: 1; 
+    grid-row-end: 2;
+}
+
+.Grid_PortadaOption{
+    cursor: pointer;
+    width: 100%;
+    max-width: 220px;
+}
+.Gridactive{
+    border: 1px solid $textColor;
+}

@@ -3,7 +3,7 @@ const IconSvg = ({src, size=2}) =>{
     return (
         <img 
             className={`Svg size-${size} icon`}
-            src={src}
+            src={'../'+src}
             alt="icon"
         />
     )

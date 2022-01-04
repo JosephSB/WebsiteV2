@@ -2,7 +2,10 @@ export default function handler(req, res) {
     res.status(200).json({
         Proyects: [
             {
-                portada: "/Img/Proyects/ImgProyect1.webp",
+                portada: "/Img/Proyects/Proyect1/portada1.webp",
+                portada2: "/Img/Proyects/Proyect1/portada2.webp",
+                portada3: "/Img/Proyects/Proyect1/portada3.webp",
+                portada4: "/Img/Proyects/Proyect1/portada4.webp",
                 name:"MiniSpotiffy",
                 tags : ["Api", "Backend","Frontend","Database"],
                 description : "Aplicacion parecida a spotiffy, donde puedes subir y escuchar musica ademas tiene inicio-cierre de sesion, tambien puedes crear tus propias playlists. Esta aplicacion esta hecha en php como una API y consumiendola en el frontend con React.js",
@@ -28,7 +31,10 @@ export default function handler(req, res) {
                 ]
             },
             {
-                portada: "/Img/Proyects/ImgProyect2.webp",
+                portada: "/Img/Proyects/Proyect2/portada1.webp",
+                portada2: "/Img/Proyects/Proyect2/portada2.webp",
+                portada3: "/Img/Proyects/Proyect2/portada3.webp",
+                portada4: "/Img/Proyects/Proyect2/portada4.webp",
                 name:"Farmacheck",
                 tags : ["Api","Frontend"],
                 description : "Proyecto hecho en react.js donde consumo una api con locaciones y precios de medicamentos, en esta aplicacion puedes seleccionar tu ubicacion y encontrar los medicamentos con el mejor precio.",
@@ -46,7 +52,10 @@ export default function handler(req, res) {
                 ]
             },
             {
-                portada: "/Img/Proyects/ImgProyect7.webp",
+                portada: "/Img/Proyects/Proyect7/portada1.webp",
+                portada2: "/Img/Proyects/Proyect7/portada2.webp",
+                portada3: "/Img/Proyects/Proyect7/portada3.webp",
+                portada4: "/Img/Proyects/Proyect7/portada4.webp",
                 name:"YourDrugs",
                 tags : ["Api","Frontend","Backend","e-commerce"],
                 description : "e-commerce basado en la serie How to sell drugs online, este proyecto permite simular un carrito de compras, validar usuarios y puedes agregar comentarios en cada producto",
@@ -72,7 +81,10 @@ export default function handler(req, res) {
                 ]
             },
             {
-                portada: "/Img/Proyects/ImgProyect3.webp",
+                portada: "/Img/Proyects/Proyect3/portada1.webp",
+                portada2: "/Img/Proyects/Proyect3/portada2.webp",
+                portada3: "/Img/Proyects/Proyect3/portada3.webp",
+                portada4: "/Img/Proyects/Proyect3/portada4.webp",
                 name:"Rick y Morty",
                 tags : ["Api","Frontend"],
                 description : "Proyecto hecho en react.js donde consumo la api de la serie Rick y Morty",
@@ -90,7 +102,10 @@ export default function handler(req, res) {
                 ]
             },
             {
-                portada: "/Img/Proyects/ImgProyect5.webp",
+                portada: "/Img/Proyects/Proyect5/portada1.webp",
+                portada2: "/Img/Proyects/Proyect5/portada2.webp",
+                portada3: "/Img/Proyects/Proyect5/portada3.webp",
+                portada4: "/Img/Proyects/Proyect5/portada4.webp",
                 name:"Chat Simple",
                 tags : ["Backend","Frontend","Websockets"],
                 description : "Proyecto hecho en React.js en el frontend y Node.js en el backend donde uso socket.io para crear un chat simple",
@@ -116,7 +131,10 @@ export default function handler(req, res) {
                 ]
             },
             {
-                portada: "/Img/Proyects/ImgProyect4.webp",
+                portada: "/Img/Proyects/Proyect4/portada1.webp",
+                portada2: "/Img/Proyects/Proyect4/portada2.webp",
+                portada3: "/Img/Proyects/Proyect4/portada3.webp",
+                portada4: "/Img/Proyects/Proyect4/portada4.webp",
                 name:"Pokedex",
                 tags : ["Api","Frontend"],
                 description : "Proyecto hecho en react.js donde consumo la api de Pokemons, ademas cree un juego de adivinar pokemos con 5 niveles",
@@ -134,7 +152,10 @@ export default function handler(req, res) {
                 ]
             },
             {
-                portada: "/Img/Proyects/ImgProyect6.webp",
+                portada: "/Img/Proyects/Proyect6/portada1.webp",
+                portada2: "/Img/Proyects/Proyect6/portada2.webp",
+                portada3: "/Img/Proyects/Proyect6/portada3.webp",
+                portada4: "/Img/Proyects/Proyect6/portada4.webp",
                 name:"Website Personal",
                 tags : ["Frontend"],
                 description : "Proyecto hecho en React.js y Next.js donde creo mi portafolio, ademas agregue ThemeMode y Multiidioma",

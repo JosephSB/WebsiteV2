@@ -4,7 +4,11 @@
       "paths": {
         "@Components/*": [
           "Components/*"
-        ]
+        ],
+        "@database/*": [
+          "database/*"
+        ],
+        "@cors": ["cors-middleware.ts"],
       }
     }
 }
