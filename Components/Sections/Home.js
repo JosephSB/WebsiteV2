@@ -11,7 +11,7 @@ const Home = ({ title2, title3, btn }) => {
           <h3 className="Home_Subtitle">{title3}</h3>
           <Btn1
             message={btn}
-            route="/pdf/cv.pdf"
+            route="/Pdf/CV.pdf"
             icon="svg/file_download.svg"
           />
         </div>
